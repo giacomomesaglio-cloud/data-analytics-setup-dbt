@@ -1,0 +1,7 @@
+# Correct — consistent 2-space indentation
+sources:
+  - name: jaffle_shop
+    schema: raw
+    tables:
+      - name: raw_customers
+        description: "Customer data"
