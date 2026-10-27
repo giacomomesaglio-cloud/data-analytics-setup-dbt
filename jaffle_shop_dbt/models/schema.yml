@@ -6,11 +6,14 @@ sources:
       owner: "Data Team"
 
     tables:
-      - name: raw_customers
+      - name: customers
+        identifier: raw_customers
         description: "Customer information"
 
-      - name: raw_orders
+      - name: orders
+        identifier: raw_orders
         description: "Order transactions"
 
-      - name: raw_payments
+      - name: payments
+        identifier: raw_payements
         description: "Payment records"
